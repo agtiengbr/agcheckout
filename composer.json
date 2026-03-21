@@ -1,0 +1,21 @@
+{
+    "name": "agti/agcheckout",
+    "autoload": {
+      "psr-4": {
+        "AGTI\\Checkout\\": "src/"
+      }
+    },
+    "type": "prestashop-module",
+    "config": {
+      "preferred-install": "dist",
+      "prepend-autoloader": false
+  },
+  "require-dev": {
+      "codeception/codeception": "^4.1",
+      "codeception/module-asserts": "^1.0.0",
+      "codeception/assert-throws": "^1.1"
+  },
+    "require": {
+        "facebook/graph-sdk": "^5.1"
+    }
+}

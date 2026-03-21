@@ -1,0 +1,176 @@
+/* #module-agcheckout-checkout #wrapper > .container {width: 100%} */
+.agcheckout p{margin-bottom: 0}
+
+.is-loadable {position: relative;}
+
+.agcheckout {min-height: 400px;}
+.agcheckout .div-loading {align-items: center;
+    justify-content: center;z-index: 1000; position: absolute; display: flex; top: 0; bottom: 0; left: 0; right: 0; background: white; opacity: 50%;}
+
+.agcheckout h2 {margin-bottom: 15px}
+
+.agcheckout.hidden {display: none !important}
+.agcheckout.hidden.ready {display: block !important}
+.agcheckout .input-radios{text-align: center; margin-bottom: 15px}
+.agcheckout .input-radio-container label{display: inline}
+.agcheckout .input-radio-container{white-space: nowrap;}
+
+.agcheckout .customer-top-action{margin-bottom: 10px}
+.agcheckout .new-address{white-space: nowrap}
+.agcheckout-address,
+.agcheckout .carrier,
+.agcheckout .payment-method {display: flex; margin-bottom: 10px; cursor: pointer}
+
+.agcheckout-address:hover p,
+.agcheckout .carrier:hover p,
+.agcheckout .payment-method:hover p{color: black}
+
+.agcheckout-address > div {align-self: center;}
+.agcheckout-address > div:first-child {margin-right: 10px;}
+.agcheckout-address p{margin-bottom: 0px;}
+.agcheckout .addresses{max-height: 200px; overflow-y: auto}
+.agcheckout .address:selected {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.agcheckout .input-container{margin-bottom: 10px}
+
+.agcheckout .carriers .carrier {display: flex; margin-bottom: 10px}
+.agcheckout .carriers .carrier > div{align-self: center} 
+.carrier-selection {margin-right: 10px}
+.carrier-image {width: 150px; margin-right: 10px}
+.carrier-image img {max-width: 100%;}
+.carrier-data p {margin-bottom: 0}
+
+.agcheckout .btn-primary{display: block}
+
+.agcheckout .cart-modal .agmodal-content{width: 50%; max-width: 1200px}
+@media (max-width: 600px) {
+    .agcheckout .cart-modal .agmodal-content{width: 95%}
+}
+.agcheckout .cart-modal .reference{text-align: left}
+.agcheckout .cart-modal .total{text-align: left}
+
+
+.agcheckout .form-control{outline: 0 !important}
+.address-modal p {margin-bottom: 0}
+.address-modal input[name="postcode"] {max-width: 150px; margin-bottom: 15px}
+
+.address-modal .btn-primary{display: inline}
+.address-container {margin-bottom: 30px}
+
+.agcheckout .products {margin-bottom: 30px}
+.agcheckout .products > div {margin-bottom: 5px; border-bottom: 1px solid #eee; padding-bottom: 5px; display: grid; grid-template-columns: 15% 15% 50% 20%}
+
+.agcheckout .products .product img {max-width: 100%}
+
+.invoicing {margin-bottom: 30px;}
+
+.subtotals > div {display: grid; grid-template-columns: 80% 20%}
+.subtotals > div div:first-child{text-align: right; margin-right: 10px}
+
+.agcheckout .payment-method p{margin-bottom: 0}
+
+.agcheckout .payment:empty {
+    display: none;
+}
+
+.agcheckout .vouchers{margin-bottom: 30px}
+.agcheckout .vouchers-form {display: flex; margin-bottom: 5px; margin-top: 5px}
+.agcheckout .vouchers-list .voucher{display: flex}
+.agcheckout .voucher-name {flex-grow: 1}
+.vouchers-list i{cursor: pointer}
+.agcheckout .totals {margin-bottom: 20px}
+
+
+@media (max-width: 991px) {
+    .agcheckout > div {margin-bottom: 40px;}
+    .agcheckout .products > div {grid-template-columns: 40% 40% 20%}
+    .agcheckout .products > div div {padding: 5px}
+    .agcheckout .products > div div:nth-child(2){display: none}
+}
+
+.btn-facebook, .btn-facebook:hover {
+    background-color: #1877f2;
+    border-radius: 4px;
+    color: #fff !important;
+    background-repeat: no-repeat !important;
+    background-position: 15px center !important;
+    padding: 10px;
+    padding-left: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.agcustomers.facebook-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.agcustomers p{
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.agcustomers-error {
+    margin-top: 2px;
+    color: red;
+}
+
+.agcheckout-address div:nth-child(2){flex-grow: 1;}
+.agcheckout-address i:hover{color: #777}
+
+.agcheckout label{text-align: left}
+
+.agcheckout .card {
+    padding-inline: 0;
+    border: 1px solid rgb(0, 0, 0, 0.175);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 11%);
+    background-color: #fff!important;
+}
+
+.agcheckout .card .card-header {
+    padding: .5rem 1rem;
+}
+
+.agcheckout .card .card-header h5 {
+    margin: 0;
+}
+
+.agcheckout .card .card-body {
+    padding: 1rem;
+}
+
+.agcheckout .card .card-body label {
+    width: -webkit-fill-available;
+    margin-block: .5rem;
+}
+
+.agcheckout .card .card-body [type="checkbox"] {
+    margin: .5rem .5rem .5rem 0;
+}
+
+.agcheckout .card .card-body [type="radio"] {
+    margin-right: .5rem;
+}
+
+.agcheckout .carriers .carrier:hover,
+.agcheckout .payment-method:hover,
+.agcheckout-address:hover {
+    opacity: .85;
+}
+
+.agcheckout-address {
+    gap: .25rem;
+}
+
+.agcheckout #agyapay_credit_card [name=agyapay_year], #agyapay_credit_card [name=agyapay_month] {
+    width: -webkit-fill-available!important;
+}
+
+body#checkout .agcheckout .condition-label {
+    margin-left: auto;
+}

@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{agcheckout}prestashop>checkout_bf7522579cc25db4187cb548abcd7b92'] = 'Your shopping cart is empty';
+$_MODULE['<{agcheckout}prestashop>checkout_49590a3779a93724cd240ad722e8ec7b'] = 'Click here';
+$_MODULE['<{agcheckout}prestashop>checkout_63a389abae4eea236cb3486b30494e1d'] = 'to continue in our shop';
+$_MODULE['<{agcheckout}prestashop>checkout_16533806bdaec67d01d720d75d95ef7f'] = 'Personal Data';
+$_MODULE['<{agcheckout}prestashop>checkout_8ed4f41a57221c967a0d693b480ef2b5'] = 'Already registered?';
+$_MODULE['<{agcheckout}prestashop>checkout_d18d701e7612f69b37eb38debdd019ec'] = 'Don\'t have a account?';
+$_MODULE['<{agcheckout}prestashop>checkout_8dcfadd03ff9512631baa900dce5104a'] = 'Full Name';
+$_MODULE['<{agcheckout}prestashop>checkout_1e884e3078d9978e216a027ecd57fb34'] = 'Email';
+$_MODULE['<{agcheckout}prestashop>checkout_781ebf469d3ff82633e44da05c972230'] = 'Recovery password';
+$_MODULE['<{agcheckout}prestashop>checkout_ca6ce366238b5f7f0e0f83c8db89c62b'] = 'Subscribe to our newsletter';
+$_MODULE['<{agcheckout}prestashop>checkout_eb7a0fed691fc71db1ac92407ca5430a'] = 'Save';
+$_MODULE['<{agcheckout}prestashop>checkout_a6d420c9a4dfc9fc135795d1c827c17b'] = 'Delivery';
+$_MODULE['<{agcheckout}prestashop>checkout_b695298f254dbb45750301d9ca56da87'] = 'Please finish your registration first';
+$_MODULE['<{agcheckout}prestashop>checkout_d634611d80caf77ae1ef4e305483a1e1'] = 'You do not have an address yet';
+$_MODULE['<{agcheckout}prestashop>checkout_036ba218478d0d5e88abee3e7ebf0409'] = 'New address';
+$_MODULE['<{agcheckout}prestashop>checkout_0c522840fd3b6bca9566b3f24485bd36'] = 'Your delivery address is';
+$_MODULE['<{agcheckout}prestashop>checkout_0490b1900207794c0adf3cfe85de1d19'] = 'Carrier';
+$_MODULE['<{agcheckout}prestashop>checkout_aec54098fb0b9ba2f6a9f83a42447100'] = 'Delivery time';
+$_MODULE['<{agcheckout}prestashop>checkout_b5aa1e87da117cccf1e98963da917527'] = 'Delivery cost';
+$_MODULE['<{agcheckout}prestashop>checkout_c927276cd7a16e0a2e6d6d07977af13e'] = 'The deilvery time starts counting only after we receive the payment confirmation';
+$_MODULE['<{agcheckout}prestashop>checkout_09bbd417bb11c3de736be8f051144fd8'] = 'Address';
+$_MODULE['<{agcheckout}prestashop>checkout_3befd78296e667c16007ec6c14bb4c4e'] = 'The invoice address is';
+$_MODULE['<{agcheckout}prestashop>checkout_4cef1eb01568374a2f344dc7ab04d5de'] = 'Invoice';
+$_MODULE['<{agcheckout}prestashop>checkout_27bc9e277ee0770f3ce5fdb544631a18'] = 'No payment needed';
+$_MODULE['<{agcheckout}prestashop>checkout_f696fdeaeb2ecd5414c8cb1de3cec73c'] = 'Payment';
+$_MODULE['<{agcheckout}prestashop>checkout_4562449b4ceaa93d06df569ea67bddca'] = 'Please inform your address before';
+$_MODULE['<{agcheckout}prestashop>checkout_625a523415cd3bc5244fa7df129fea8c'] = 'Have a voucher? Inserte below.';
+$_MODULE['<{agcheckout}prestashop>checkout_dbaee1c1809402db8f4c4c18234f5a63'] = 'Add';
+$_MODULE['<{agcheckout}prestashop>checkout_fecacfb023dd17cfcc04f33d0b2bea5b'] = 'Total to pay:';
+$_MODULE['<{agcheckout}prestashop>checkout_d1c6667860d6ea362682df1f24aacb14'] = 'Details';
+$_MODULE['<{agcheckout}prestashop>checkout_8845a9b6bb51200b78625ac814cb6e3c'] = 'Finish Order';
